@@ -16,7 +16,7 @@ export default function Nav() {
       <div className="flex items-center justify-between max-w-6xl pt-4 pb-2 px-4 mx-auto lg:max-w-screen-xl">
         <Link href="/" passHref>
           <a className="cursor-pointer">
-            <span className="text-lg pt-1 font-bold">ASCEP 2023</span>
+            <span className="text-lg pt-1 font-bold">ACEP 2023</span>
           </a>
         </Link>
         <a className="text-md font-bold cursor-pointer" onClick={() => setCartOpen(!cartOpen)}>
