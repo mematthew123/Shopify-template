@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -39,18 +38,13 @@ export default function Hero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="https://v2-6.junolive.dev/main/live"
+                    href="https://mematthew123.dev/"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
                     Return to Event
                   </a>
                 </div>
               </div>
-              {/* <div className=" w-100 float-left border-transparent font-bold text-xs text-black ">
-                <span className="text-center text-black-200">
-                  * WE ARE NOT AN EVENTS COMPANY
-                </span>
-              </div> */}
             </div>
           </main>
         </div>
@@ -58,7 +52,6 @@ export default function Hero() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-          // src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
           src="https://cdn.pixabay.com/photo/2020/05/25/03/37/doctor-5216835_1280.png"
           alt=""
         />
